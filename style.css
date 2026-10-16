@@ -1,0 +1,55 @@
+.position-relative {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 400px;
+    height: 800px;
+    background-color: aqua;
+    margin: 100px;
+}
+
+.position-absolute {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.div2 {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.item {
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid;
+    gap: 20px;
+
+}
+
+
+@media (min-width: 768px) {
+
+    .container {
+        display: flex;
+        padding: 20px;
+        border: 1px solid;
+        gap: 20px;
+        flex-direction: row;
+
+
+    }
+
+}
